@@ -640,30 +640,156 @@ BUTTON
     color:#00d8ff;
 }
 
-.experience-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:20px;
+/*================ EXPERIENCE ================*/
+
+.experience{
+
+    padding:100px 9%;
+
 }
 
-.experience-header h3{
-    font-size:28px;
+.experience .heading{
+
+    text-align:center;
+    font-size:4rem;
+    margin-bottom:60px;
+    color:#fff;
+
+}
+
+.experience .heading span{
+
     color:#00d8ff;
+
 }
 
-.experience-header h4{
-    color:#ffffff;
-    font-size:18px;
-    margin-top:5px;
-}
+.experience .heading::after{
 
-.duration{
+    content:"";
+    display:block;
+    width:120px;
+    height:5px;
     background:#00d8ff;
+    margin:18px auto;
+    border-radius:20px;
+
+}
+
+.experience-container{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.experience-box{
+
+    width:100%;
+    max-width:950px;
+
+    background:#1f242d;
+
+    border:2px solid #00d8ff;
+
+    border-radius:25px;
+
+    padding:35px;
+
+    transition:.4s;
+
+}
+
+.experience-box:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 30px rgba(0,216,255,.35);
+
+}
+
+.experience-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.experience-top h3{
+
+    font-size:2.6rem;
+
+    color:#00d8ff;
+
+}
+
+.experience-top h4{
+
+    color:#fff;
+
+    margin-top:8px;
+
+    font-size:1.7rem;
+
+}
+
+.experience-badge{
+
+    background:#00d8ff;
+
     color:#111;
-    padding:8px 18px;
-    border-radius:30px;
-    font-weight:600;
+
+    padding:10px 22px;
+
+    border-radius:40px;
+
+    font-weight:700;
+
+    font-size:1.4rem;
+
+}
+
+.experience-box p{
+
+    color:#ddd;
+
+    font-size:1.7rem;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+}
+
+.tech-stack{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.tech-stack span{
+
+    background:#00d8ff;
+
+    color:#111;
+
+    padding:10px 22px;
+
+    border-radius:40px;
+
+    font-size:1.4rem;
+
+    font-weight:700;
+
 }
 
 /* =========================================
