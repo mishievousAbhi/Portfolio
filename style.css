@@ -640,156 +640,41 @@ BUTTON
     color:#00d8ff;
 }
 
-/*================ EXPERIENCE ================*/
+/* ===== EXPERIENCE ===== */
 
-.experience{
-
-    padding:100px 9%;
-
+#experience{
+    padding: 8rem 9% 5rem;
 }
 
-.experience .heading{
-
-    text-align:center;
-    font-size:4rem;
-    margin-bottom:60px;
-    color:#fff;
-
+#experience h4{
+    color: #00d8ff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
 }
 
-.experience .heading span{
-
-    color:#00d8ff;
-
+#experience .project-card{
+    transition: 0.4s ease;
 }
 
-.experience .heading::after{
-
-    content:"";
-    display:block;
-    width:120px;
-    height:5px;
-    background:#00d8ff;
-    margin:18px auto;
-    border-radius:20px;
-
+#experience .project-card:hover{
+    transform: translateY(-8px);
 }
 
-.experience-container{
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
+#experience .tech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
-.experience-box{
-
-    width:100%;
-    max-width:950px;
-
-    background:#1f242d;
-
-    border:2px solid #00d8ff;
-
-    border-radius:25px;
-
-    padding:35px;
-
-    transition:.4s;
-
-}
-
-.experience-box:hover{
-
-    transform:translateY(-8px);
-
-    box-shadow:0 0 30px rgba(0,216,255,.35);
-
-}
-
-.experience-top{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    margin-bottom:25px;
-
-}
-
-.experience-top h3{
-
-    font-size:2.6rem;
-
-    color:#00d8ff;
-
-}
-
-.experience-top h4{
-
-    color:#fff;
-
-    margin-top:8px;
-
-    font-size:1.7rem;
-
-}
-
-.experience-badge{
-
-    background:#00d8ff;
-
-    color:#111;
-
-    padding:10px 22px;
-
-    border-radius:40px;
-
-    font-weight:700;
-
-    font-size:1.4rem;
-
-}
-
-.experience-box p{
-
-    color:#ddd;
-
-    font-size:1.7rem;
-
-    line-height:1.8;
-
-    margin-bottom:30px;
-
-}
-
-.tech-stack{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:15px;
-
-}
-
-.tech-stack span{
-
-    background:#00d8ff;
-
-    color:#111;
-
-    padding:10px 22px;
-
-    border-radius:40px;
-
-    font-size:1.4rem;
-
-    font-weight:700;
-
+#experience .tech span{
+    background: #00d8ff;
+    color: #111;
+    padding: .8rem 1.6rem;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 /* =========================================
